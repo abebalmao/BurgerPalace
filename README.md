@@ -1,2 +1,2 @@
 # BurgerPalace
-A website I built for a school project using HTML and CSS
+A mock website I built using HTML and CSS for a fictional restaurant called Burger Palace.
