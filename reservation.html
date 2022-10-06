@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Burger Palace - Best burgers in Sweden</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Reservation page for Burger Palace">
+        <meta name="keywords" content="restaurant, burger, hamburger, sweden, food, bar, beer">
+        <meta name="viewpport" content="width=device-width, initial-scale=1.0"> <!-- neeeded? -->
+        <link rel="stylesheet" href="styles/style.css">
+        <script type="text/javascript" src="scripts/script.js"></script>
+
+    </head>
+    
+    <body>
+        <header>
+            <nav id = "navigation">
+                <div id="nav-bar-left">
+                    <a href="home.html" class="nav-line">Home</a>
+                    <a href="menu.html" class="nav-line">Menu</a>
+    
+                </div>
+                <div id="nav-bar-center">
+                    <div id="logo">
+                        <h1 id="main-title">Burger Palace</h1>
+                        <h3 id="sub-title">Best burgers in Sweden</h2>
+                    </div>
+                </div>
+                <div id="nav-bar-right">
+                    <a href="reservation.html" class="nav-line" style="color: #24f3c3; text-decoration-line: underline; opacity: 1;">Reservation</a>
+                    <a href="contact.html" class="nav-line">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <section class="banner" id="reservation">
+            <div class="reservation-container">
+                <div class="reservation-img">
+                    <img src="../Gäsell/images/burger_reservation.jpg" alt="" height="340px" width="400px">
+                </div>
+                <div class="reservation-content">
+                    <h3>Reservation</h3>
+                    <form>
+                        <div class="form-row">
+                            <select name="days">
+                                <option value="day-select">Select Day</option>
+                                <option value="monday">Monday</option>
+                                <option value="tuesday">Tuesday</option>
+                                <option value="wednesday">wednesday</option>
+                                <option value="thursday">Thursday</option>
+                                <option value="friday">Friday</option>
+                                <option value="saturday">Saturday</option>
+                                <option value="sunday">Sunday</option>
+                            </select>
+                            <select name="hour">
+                                <option value="hour">Select Hour</option>
+                                <option value="16">16:00</option>
+                                <option value="16-5">16:30</option>
+                                <option value="17">17:00</option>
+                                <option value="17-5">17:30</option>
+                                <option value="18">18:00</option>
+                                <option value="18-5">18:30</option>
+                                <option value="19">19:00</option>
+                                <option value="19-5">19:30</option>
+                                <option value="20">20:00</option>
+                                <option value="20-5">20:30</option>
+                                <option value="21">21:00</option>
+                                <option value="21-5">21:30</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <input type="text" placeholder="Full Name">
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+        
+                        <div class="form-row">
+                            <input type="number"
+                            placeholder="How many people?" min="1">
+                            <input type="submit" value="BOOK TABLE">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        
+            
+    </body>
+</html>
